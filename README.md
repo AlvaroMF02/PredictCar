@@ -50,7 +50,7 @@ Sigue estos pasos para poner en marcha PredictCar en tu entorno local:
    Abre tu terminal y ejecuta:
 
    ```bash
-   git clone https://github.com/tuusuario/predictcar.git
+   git clone https://github.com/AlvaroMF02/PredictCar.git
    cd predictcar
    ```
 
