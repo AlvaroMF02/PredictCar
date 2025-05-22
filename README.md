@@ -4,9 +4,12 @@ Proyecto de predicción de precios de coches utilizando Machine Learning y un ba
 
 ---
 
+```markdown
 ## Estructura del proyecto
 
-TFMPrueba/
+```
+
+predictcar/
 │
 ├── data/ # Datos originales
 │ └── vehicles.csv # Dataset principal
@@ -27,6 +30,8 @@ TFMPrueba/
 ├── .gitignore # Ignora archivos/carpetas innecesarios
 └── README.md # Este documento
 
+```
+```
 ---
 
 ## Tecnologías usadas
