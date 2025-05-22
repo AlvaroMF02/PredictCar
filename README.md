@@ -41,20 +41,44 @@ TFMPrueba/
 
 ---
 
+
 ## Cómo ejecutar el proyecto
 
-1. **Clona el repositorio**:
-git clone https://github.com/tuusuario/predictcar.git
+Sigue estos pasos para poner en marcha PredictCar en tu entorno local:
 
-2. **Ejecuta y haz todas las instalaciones necesarias con pip**:
-.\venv\Scripts\activate
+1. **Clona este repositorio**
+   Abre tu terminal y ejecuta:
 
-pip install transformers flask pandas joblib flask-cors
-pip install deep_translator
-pip install scikit_learn
-pip install torch
+   ```bash
+   git clone https://github.com/tuusuario/predictcar.git
+   cd predictcar
+   ```
 
-python server.py
+2. **Crea y activa un entorno virtual (opcional pero recomendado)**
+   En Windows:
 
-3. **Ve al enlace que sale en la terminal**:
-http://127.0.0.1:5000
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
+
+3. **Instala las dependencias necesarias**
+   Ejecuta lo siguiente para instalar todos los paquetes requeridos:
+
+   ```bash
+   pip install flask flask-cors pandas joblib transformers torch scikit_learn deep_translator
+   ```
+
+4. **Ejecuta el servidor Flask**
+   Lanza la aplicación ejecutando:
+
+   ```bash
+   python server.py
+   ```
+
+5. **Abre la aplicación en tu navegador**
+   Una vez que el servidor esté en marcha, abre el siguiente enlace:
+
+   [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
