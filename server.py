@@ -10,7 +10,7 @@ from deep_translator import GoogleTranslator
 # activar venv                  .\venv\Scripts\activate
 # instalaciones necesarias      pip install transformers flask pandas joblib flask-cors
 #                               pip install deep_translator
-#                               pip install scikit_learn        ns si esta bien escrito
+#                               pip install scikit_learn
 #                               pip install torch
 
 
