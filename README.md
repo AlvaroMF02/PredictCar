@@ -6,8 +6,7 @@ Proyecto de predicción de precios de coches utilizando Machine Learning y un ba
 
 ## Estructura del proyecto
 
-TFMPrueba/
-│
+```bash
 ├── data/ # Datos originales
 │ └── vehicles.csv # Dataset principal
 │
@@ -26,7 +25,7 @@ TFMPrueba/
 ├── server.py # API Flask para predicción
 ├── .gitignore # Ignora archivos/carpetas innecesarios
 └── README.md # Este documento
-
+```
 ---
 
 ## Tecnologías usadas
